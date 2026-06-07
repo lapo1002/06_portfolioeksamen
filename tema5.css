@@ -4,17 +4,15 @@
   position: relative;
 }
 
-.tema_header .logo,
-.tema_header .burger {
+.tema_header .logo {
   position: absolute;
   top: 28px;
-}
-
-.tema_header .logo {
   left: 24px;
 }
 
 .tema_header .burger {
+  position: absolute;
+  top: 22px;
   right: 24px;
 }
 
@@ -55,49 +53,42 @@
 .top_billede {
   width: 230px;
   display: block;
-  margin: 35px auto 40px;
-  border-radius: 12px;
+  margin: 35px auto;
+  border-radius: 10px;
 }
 
 .projekt_link {
   display: block;
   color: black;
   font-size: 13px;
-  margin: 20px 0 35px;
-}
-
-.stort_billede,
-.kode_billede {
-  width: 100%;
-  display: block;
-  border-radius: 10px;
+  margin: 25px 0 35px;
 }
 
 .stort_billede {
   width: 100%;
-  border-radius: 10px;
-  margin-top: 35px;
-  margin-bottom: 8px;
-}
-
-.kode_billede {
-  width: 100%;
   display: block;
   border-radius: 10px;
-  margin-top: 30px;
-  margin-bottom: 8px;
+
+  margin-top: 35px;
+  margin-bottom: 12px;
 }
 
-.forklaring_boks {
-  width: 85%;
-  margin: 0 auto 40px;
-  padding: 22px;
-  background-color: white;
+.proces_tekst {
+  margin: 35px 0;
+}
+
+.to_billeder {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.to_billeder img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
   border-radius: 10px;
-}
-
-.forklaring_boks p {
-  font-size: 10px;
-  line-height: 1.6;
-  margin: 0;
 }
