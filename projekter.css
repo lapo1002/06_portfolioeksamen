@@ -1,0 +1,47 @@
+.projekter {
+  padding: 50px 30px 80px;
+
+  background-image: url("img/ai generet baggrund.webp");
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.projekter h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 600;
+
+  color: #e6ff00;
+
+  font-size: 48px;
+
+  text-align: center;
+
+  margin-bottom: 55px;
+}
+
+.projekt_liste {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+
+.projekt_kort {
+  display: flex;
+  align-items: center;
+
+  min-height: 95px;
+
+  padding: 30px 22px;
+
+  background-color: rgba(255, 255, 255, 0.85);
+
+  border-radius: 28px;
+
+  color: black;
+  text-decoration: none;
+
+  font-size: 18px;
+  line-height: 1.4;
+}
