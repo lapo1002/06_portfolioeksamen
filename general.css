@@ -61,7 +61,7 @@ header {
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 95px;
+  font-size: 90px;
   line-height: 0.9;
   color: #e6ff00;
 }
@@ -70,7 +70,7 @@ header {
   font-family: "Cormorant Garamond", serif;
   font-style: italic;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 22px;
   color: #e6ff00;
 }
 
@@ -87,7 +87,7 @@ header {
 }
 
 .intro_box p {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.5;
   margin-bottom: 90px;
 }
@@ -111,6 +111,7 @@ footer {
 }
 
 /* Burgermenu */
+
 .menu_overlay {
   position: fixed;
   inset: 0;
