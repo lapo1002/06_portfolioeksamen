@@ -44,4 +44,10 @@
 
   font-size: 18px;
   line-height: 1.4;
+
+  transition: 0.4s;
+}
+
+.projekt_kort:hover {
+  background-color: #e6ff00;
 }

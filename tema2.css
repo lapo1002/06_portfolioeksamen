@@ -79,3 +79,56 @@
   display: block;
   margin-top: 30px;
 }
+
+@media (min-width: 800px) {
+  .tema_header {
+    height: 320px;
+  }
+
+  .tema_header h1 {
+    font-size: 75px;
+    bottom: 50px;
+  }
+
+  .tema_side {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px 100px;
+  }
+
+  .tema_side section {
+    margin-bottom: 90px;
+  }
+
+  .tema_side h2 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+
+  .tema_side p {
+    font-size: 18px;
+    line-height: 1.9;
+  }
+
+  .projekt_link {
+    font-size: 20px;
+    margin: 35px 0 50px;
+  }
+
+  .stort_billede {
+    max-width: 1000px;
+    display: block;
+    margin: 45px auto 60px;
+  }
+
+  .kode_billede {
+    max-width: 850px;
+    display: block;
+    margin: 40px auto 0;
+  }
+
+  .billeder_to {
+    gap: 25px;
+    margin-top: 50px;
+  }
+}
