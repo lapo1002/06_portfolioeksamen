@@ -80,6 +80,22 @@
   margin-top: 30px;
 }
 
+.projekt_link {
+  display: inline-block;
+
+  padding: 7px 18px;
+
+  background-color: #e6ff00;
+  color: black;
+  text-decoration: none;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+
+  margin: 18px 0 30px;
+}
+
 @media (min-width: 800px) {
   .tema_header {
     height: 320px;
@@ -130,5 +146,21 @@
   .billeder_to {
     gap: 25px;
     margin-top: 50px;
+  }
+
+  .projekt_link {
+    display: inline-block;
+
+    padding: 10px 26px;
+
+    background-color: #e6ff00;
+    color: black;
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    font-size: 16px;
+
+    margin: 25px 0 50px;
   }
 }
