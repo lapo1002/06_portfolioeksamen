@@ -90,10 +90,6 @@
   border-radius: 999px;
 }
 
-footer {
-  height: 60px;
-  background-color: #555252;
-}
 .kontakt_form {
   position: relative;
   width: 92%;
@@ -209,13 +205,14 @@ footer {
   }
 
   .om_side {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 60px 40px 100px;
+    background-color: #e8e4dc;
+    padding: 60px 0 100px;
   }
 
   .om_side section {
-    margin-bottom: 90px;
+    max-width: 1200px;
+    margin: 0 auto 90px;
+    padding: 0 40px;
   }
 
   .om_side h2 {
@@ -273,9 +270,5 @@ footer {
   .kontakt_form input,
   .kontakt_form textarea {
     font-size: 15px;
-  }
-
-  footer {
-    height: 100px;
   }
 }

@@ -120,13 +120,13 @@
   }
 
   .tema_side {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 60px 40px 100px;
+    padding: 60px 0 100px;
   }
 
   .tema_side section {
-    margin-bottom: 90px;
+    max-width: 1200px;
+    margin: 0 auto 90px;
+    padding: 0 40px;
   }
 
   .tema_side h2 {
