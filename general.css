@@ -155,3 +155,36 @@ footer {
   padding: 28px 0 18px;
   border-bottom: 1px solid black;
 }
+
+.desktop_nav {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .burger {
+    display: none;
+  }
+
+  .desktop_nav {
+    display: flex;
+    position: absolute;
+    top: 45px;
+    right: 55px;
+    gap: 55px;
+    z-index: 10;
+  }
+
+  .desktop_nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 26px;
+    transition: color 0.3s ease;
+  }
+
+  .desktop_nav a:hover {
+    color: #e6ff00;
+  }
+}
