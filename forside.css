@@ -76,16 +76,12 @@ footer {
     top: 80px;
     left: 50%;
     transform: translateX(-50%);
-    text-align: center;
+    text-align: left;
   }
 
   .hero_text h1 {
     font-size: 140px;
     line-height: 0.9;
-  }
-
-  .hero_text {
-    text-align: left;
   }
 
   .hero_text p {
@@ -95,7 +91,7 @@ footer {
   }
 
   .intro_box {
-    top: 450px;
+    top: 390px;
     left: 50%;
     transform: translateX(-50%);
 

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Om mig</title>
+
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="ommig.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&family=Manrope:wght@400&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header class="tema_header">
+      <a href="index.html" class="logo">LOGO</a>
+
+      <nav class="desktop_nav">
+        <a href="index.html">FORSIDE</a>
+        <a href="projekter.html">PROJEKTER</a>
+        <a href="ommig.html">OM MIG</a>
+      </nav>
+
+      <button class="burger" id="openMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <h1>OM MIG</h1>
+    </header>
+
+    <div class="menu_overlay" id="menu">
+      <button class="close_menu" id="closeMenu">×</button>
+
+      <nav class="menu_links">
+        <a href="index.html">FORSIDE</a>
+        <a href="projekter.html">PROJEKTER</a>
+        <a href="ommig.html">OM MIG</a>
+      </nav>
+    </div>
+
+    <main class="om_side">
+      <section>
+        <p>
+          Jeg hedder Laura, og jeg er studerende på Multimediedesign på KEA. Jeg har tidligere taget en HF-uddannelse og uddannet mig inden for grafisk kommunikation på Vera Skolen, hvor jeg udviklede min interesse for visuel kommunikation, design og
+          kreativ problemløsning.
+        </p>
+
+        <p>
+          Ved siden af mine studier har jeg arbejdet som lærervikar og haft forskellige servicejobs, hvor jeg har opbygget erfaring med kommunikation, samarbejde og kundekontakt. Jeg trives i mødet med mennesker og kan godt lide at kombinere
+          kreativitet med struktur i mit arbejde.
+        </p>
+
+        <p>Jeg interesserer mig særligt for grafisk design, branding, webdesign og visuel identitet. Gennem mine projekter arbejder jeg med at skabe løsninger, der både er funktionelle og visuelt gennemarbejdede.</p>
+
+        <div class="profil_grid">
+          <img src="img/ommigportræt.webp" alt="Portrætbillede af Laura" class="portraet" />
+
+          <div class="kompetencer">
+            <ul>
+              <li>Udvikling af websites med HTML, CSS og grundlæggende JavaScript</li>
+              <li>Responsivt design til mobil og desktop</li>
+              <li>Udarbejdelse af wireframes og interaktive prototyper i Figma</li>
+              <li>Research, brugerforståelse og målgruppeanalyse</li>
+              <li>Planlægning og dokumentation af designprocesser</li>
+              <li>Grundlæggende erfaring med Illustrator og Photoshop</li>
+              <li>Formidling af visuelle løsninger og brugeroplevelser</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Hvad har jeg fået ud af 1. semester?</h2>
+
+        <p>
+          På 1. semester har jeg fået en grundlæggende forståelse for designprocessen – fra research og idéudvikling til færdigt digitalt produkt. Jeg har lært at arbejde med HTML, CSS og grundlæggende JavaScript samt værktøjer som Figma, Illustrator
+          og Photoshop.
+        </p>
+
+        <p>
+          Derudover har jeg fået erfaring med brugerundersøgelser, prototyper, tests og responsivt webdesign. Semesteret har styrket både mine tekniske færdigheder og min forståelse for, hvordan design kan bruges til at skabe gode brugeroplevelser.
+        </p>
+        <form class="kontakt_form">
+          <div class="form_header">Kontakt mig</div>
+
+          <div class="form_felt">
+            <label for="navn">Fulde navn</label>
+            <input type="text" id="navn" name="navn" />
+          </div>
+
+          <div class="form_felt">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+
+          <div class="popup" id="popup">
+            <p>Tak for din besked</p>
+            <span>✓</span>
+          </div>
+
+          <div class="form_felt">
+            <label for="besked">Besked</label>
+            <textarea id="besked" name="besked"></textarea>
+          </div>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+    <script src="menu.js"></script>
+  </body>
+</html>

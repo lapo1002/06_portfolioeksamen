@@ -11,3 +11,14 @@ document.addEventListener("DOMContentLoaded", function () {
     menu.classList.remove("active");
   });
 });
+
+const kontaktForm = document.querySelector(".kontakt_form");
+const popup = document.querySelector("#popup");
+
+if (kontaktForm) {
+  kontaktForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+    popup.classList.add("active");
+    kontaktForm.reset();
+  });
+}
