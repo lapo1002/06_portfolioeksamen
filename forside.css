@@ -61,3 +61,65 @@
   border-radius: 999px;
   font-size: 16px;
 }
+
+footer {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .hero {
+    min-height: 950px;
+    background-position: center;
+  }
+
+  .hero_text {
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  .hero_text h1 {
+    font-size: 140px;
+    line-height: 0.9;
+  }
+
+  .hero_text {
+    text-align: left;
+  }
+
+  .hero_text p {
+    font-size: 32px;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .intro_box {
+    top: 450px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 720px;
+    padding: 60px;
+    border-radius: 30px;
+  }
+
+  .intro_box p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+  }
+
+  .intro_box a {
+    font-size: 18px;
+    padding: 14px 32px;
+  }
+
+  .intro_box a:hover {
+    transform: scale(1.05);
+  }
+
+  footer {
+    display: none;
+  }
+}

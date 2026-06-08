@@ -51,3 +51,96 @@
 .projekt_kort:hover {
   background-color: #e6ff00;
 }
+
+footer {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .projekter {
+    min-height: 100vh;
+    padding: 80px 0 120px;
+
+    background-image: url("img/ai generet baggrund.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .projekter h1 {
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+
+    color: #e6ff00;
+
+    font-size: 72px;
+
+    text-align: center;
+
+    margin-bottom: 55px;
+  }
+
+  .projekt_liste {
+    width: 1200px;
+    max-width: 90%;
+
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+    gap: 35px 40px;
+
+    transform: translateY(15px);
+  }
+
+  .projekt_kort {
+    height: 155px;
+
+    padding: 35px;
+
+    display: flex;
+    align-items: center;
+
+    border-radius: 24px;
+
+    background-color: rgba(255, 255, 255, 0.85);
+
+    font-size: 20px;
+    line-height: 1.25;
+
+    color: black;
+    text-decoration: none;
+
+    transition: 0.4s;
+  }
+
+  .projekt_kort:nth-child(1) {
+    grid-column: 1 / 3;
+  }
+
+  .projekt_kort:nth-child(2) {
+    grid-column: 3 / 5;
+  }
+
+  .projekt_kort:nth-child(3) {
+    grid-column: 5 / 7;
+  }
+
+  .projekt_kort:nth-child(4) {
+    grid-column: 2 / 4;
+  }
+
+  .projekt_kort:nth-child(5) {
+    grid-column: 4 / 6;
+  }
+
+  .projekt_kort:hover {
+    background-color: #e6ff00;
+  }
+
+  footer {
+    display: none;
+  }
+}
