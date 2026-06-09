@@ -114,6 +114,26 @@
   margin: 18px 0 30px;
 }
 
+.doku {
+  width: 330px;
+  margin: 45px auto 80px;
+  position: relative;
+}
+
+.computer-frame {
+  width: 100%;
+  display: block;
+}
+
+.mockup_video {
+  position: absolute;
+  top: 12px;
+  left: 40px;
+  width: 250px;
+  height: 165px;
+  object-fit: cover;
+}
+
 @media (min-width: 800px) {
   .tema_header {
     height: 320px;
@@ -206,5 +226,28 @@
     font-size: 16px;
 
     margin: 25px 0 50px;
+  }
+  .doku {
+    position: relative;
+    width: 560px;
+    margin: 90px auto 120px;
+  }
+
+  .computer-frame {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .mockup_video {
+    position: absolute;
+    top: 18px;
+    left: 67px;
+    width: 425px;
+    height: 285px;
+    object-fit: cover;
+    z-index: 2;
   }
 }
