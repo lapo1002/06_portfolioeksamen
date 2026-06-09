@@ -134,6 +134,15 @@
   object-fit: cover;
 }
 
+footer {
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
 @media (min-width: 800px) {
   .tema_header {
     height: 320px;
