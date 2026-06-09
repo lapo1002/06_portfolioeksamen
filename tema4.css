@@ -34,11 +34,12 @@
 
 .tema_side {
   background-color: #e8e4dc;
-  padding: 25px 15px 70px;
+  padding: 25px 20px 160px;
 }
 
 .tema_side section {
-  margin-bottom: 55px;
+  max-width: 360px;
+  margin: 0 auto 48px;
 }
 
 .tema_side h2 {
@@ -84,13 +85,13 @@
   width: 100%;
   display: block;
   border-radius: 10px;
-  margin-top: 30px;
+  margin-top: 12px;
   margin-bottom: 8px;
 }
 
 .forklaring_boks {
   width: 85%;
-  margin: 0 auto 40px;
+  margin: 12px auto 40px;
   padding: 22px;
   background-color: white;
   border-radius: 10px;
@@ -136,6 +137,7 @@
     max-width: 1200px;
     margin: 0 auto 90px;
     padding: 0 40px;
+    text-align: justify;
   }
 
   .tema_side h2 {
@@ -148,52 +150,46 @@
     line-height: 1.9;
   }
 
-  .projekt_link {
-    font-size: 18px;
-    margin: 35px 0 50px;
-  }
-
   .top_billede {
     width: 420px;
     margin: 50px auto 80px;
   }
 
-  .stort_billede {
-    max-width: 950px;
-    display: block;
-    margin: 45px auto 35px;
-  }
-
-  .kode_billede {
-    max-width: 950px;
-    display: block;
-    margin: 45px auto 20px;
-  }
-
-  .forklaring_boks {
-    max-width: 700px;
-    width: 100%;
-    margin: 0 auto 70px;
-    padding: 22px 28px;
-  }
-
-  .forklaring_boks p {
-    font-size: 15px;
-    line-height: 1.8;
-  }
   .projekt_link {
-    display: inline-block;
-
     padding: 10px 26px;
-
-    background-color: #e6ff00;
-    color: black;
-    text-decoration: none;
-
-    border-radius: 999px;
-
     font-size: 16px;
-
     margin: 25px 0 50px;
+  }
+
+  .billede_grid {
+    max-width: 950px;
+    margin: 60px auto 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+
+  .billede_grid img {
+    width: 100%;
+    aspect-ratio: 1 / 0.72;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+  }
+  .stort_billede,
+  .kode_billede {
+    width: 950px;
+    margin-left: 5.2rem;
+    display: block;
+    border-radius: 10px;
+    margin-top: 2rem;
+  }
+  .forklaring_boks {
+    width: 950px;
+    margin: 0 auto 40px;
+    padding: 22px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
   }
 }

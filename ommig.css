@@ -31,11 +31,12 @@
 
 .om_side {
   background-color: #e8e4dc;
-  padding: 25px 15px 70px;
+  padding: 25px 20px 160px;
 }
 
 .om_side section {
-  margin-bottom: 55px;
+  max-width: 360px;
+  margin: 0 auto 48px;
 }
 
 .om_side h2 {

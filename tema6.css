@@ -32,11 +32,12 @@
 
 .tema_side {
   background-color: #e8e4dc;
-  padding: 25px 15px 70px;
+  padding: 25px 20px 160px;
 }
 
 .tema_side section {
-  margin-bottom: 55px;
+  max-width: 360px;
+  margin: 0 auto 48px;
 }
 
 .tema_side h2 {
@@ -84,10 +85,12 @@
   width: 100%;
   display: block;
   border-radius: 10px;
-  margin-top: 35px;
+  margin-top: 12px;
   margin-bottom: 12px;
 }
-
+.margin_tekst {
+  margin-bottom: 2.5rem;
+}
 .proces_tekst {
   margin-top: 35px;
 }
@@ -110,6 +113,7 @@
     max-width: 1200px;
     margin: 0 auto 90px;
     padding: 0 40px;
+    text-align: justify;
   }
 
   .tema_side h2 {

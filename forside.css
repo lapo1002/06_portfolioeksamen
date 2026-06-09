@@ -1,6 +1,6 @@
 .hero {
   position: relative;
-  min-height: 1000px;
+  min-height: 820px;
 
   background-image: url("img/ai generet baggrund.webp");
   background-size: cover;
@@ -10,7 +10,7 @@
 
 .hero_text {
   position: absolute;
-  top: 70px;
+  top: 65px;
   left: 22px;
 }
 
@@ -33,7 +33,7 @@
 
 .intro_box {
   position: absolute;
-  top: 600px;
+  top: 380px;
   left: 50%;
   transform: translateX(-50%);
   width: 84%;
@@ -68,35 +68,33 @@ footer {
 
 @media (min-width: 800px) {
   .hero {
-    min-height: 950px;
+    min-height: 100vh;
+    background-size: cover;
     background-position: center;
   }
 
   .hero_text {
-    top: 80px;
+    top: 70px;
     left: 50%;
     transform: translateX(-50%);
     text-align: left;
   }
 
   .hero_text h1 {
-    font-size: 140px;
+    font-size: 125px;
     line-height: 0.9;
   }
 
   .hero_text p {
-    font-size: 32px;
-    text-align: left;
-    margin-left: 0;
+    font-size: 30px;
   }
 
   .intro_box {
-    top: 390px;
+    top: 365px;
     left: 50%;
     transform: translateX(-50%);
-
-    width: 720px;
-    padding: 60px;
+    width: 650px;
+    padding: 50px;
     border-radius: 30px;
   }
 
@@ -109,10 +107,6 @@ footer {
   .intro_box a {
     font-size: 18px;
     padding: 14px 32px;
-  }
-
-  .intro_box a:hover {
-    transform: scale(1.05);
   }
 
   footer {
