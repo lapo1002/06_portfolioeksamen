@@ -27,6 +27,16 @@ header {
   font-size: 28px;
 }
 
+.logo:hover {
+  color: #e6ff00;
+  text-decoration: none;
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 28px;
+  transition: color 0.3s ease;
+}
+
 .burger {
   background: none;
   border: none;
@@ -124,5 +134,22 @@ footer {
 
   .desktop_nav a:hover {
     color: #e6ff00;
+  }
+  .logo {
+    color: white;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  .logo:hover {
+    color: #e6ff00;
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 28px;
+    transition: color 0.3s ease;
   }
 }
